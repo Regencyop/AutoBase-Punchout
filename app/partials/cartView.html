@@ -16,7 +16,8 @@
             <div>
                 <cartmessage />
             </div>
-            <div class="panel panel-default">
+            
+            <div class="cartProductsPanel panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         {{currentOrder.LineItems.length}} {{'item' + (currentOrder.LineItems.length > 1 ? 's' : '') | rl | xlat}} {{'in your' | rl | xlat:(currentOrder.LineItems.length)}} {{'cart' | rl | xlat}}
